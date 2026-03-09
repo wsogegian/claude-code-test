@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --green: #1B3A2D;
+  --green-light: #2a5642;
+  --gold: #C9A84C;
+  --off-white: #F8F6F1;
+  --charcoal: #2C2C2C;
+  --muted: #6B7280;
+}
+
+body {
+  background: var(--off-white);
+  color: var(--charcoal);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
